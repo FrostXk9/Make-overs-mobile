@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<meta name="author" content="SemiColonWeb">
+	<meta name="description" content="Get Canvas to build powerful websites easily with the Highly Customizable &amp; Best Selling Bootstrap Template, today.">
+
+	<!-- Font Imports -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+	<!-- Core Style -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Font Icons -->
+	<link rel="stylesheet" href="css/font-icons.css">
+	<link rel="stylesheet" href="one-page/css/et-line.css">
+
+	<!-- One Page Module Specific Stylesheet -->
+	<link rel="stylesheet" href="one-page/onepage.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Document Title
+	============================================= -->
+	<title>Pet - One Page | Canvas</title>
+
+	<style>
+
+		.pet-search input,
+		.pet-search .input-group-text {
+			background-color: #FFF;
+			border: 0;
+			font-size: 17px !important;
+			padding-right: 0 !important;
+		}
+
+		.pet-search .input-group:first-child { border-right: 1px solid #EEE !important; }
+
+		.pet-search .input-group-lg > .form-control:not(textarea),
+		.pet-search .input-group-lg > .custom-select,
+		.pet-search .button { height: calc(3.75em + 1rem + 2px); }
+
+		.slider-element,
+		.pet-search .button { background-color: #CCCABE; }
+
+		.pet-search input::-moz-placeholder { color: #BBB; }
+		.pet-search input:-ms-input-placeholder { color: #BBB; }
+		.pet-search input::-webkit-input-placeholder { color: #BBB; }
+
+	</style>
+    <script src="https://kit.fontawesome.com/ffe67ac9b1.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header transparent-header border-full-header dark header-size-custom" data-sticky-shrink="false" data-sticky-class="not-dark" data-sticky-offset="full" data-sticky-offset-negative="300">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="index.html">
+								<i class="fa-solid fa-wrench fa-spin fa-spin-reverse fa-lg"></i>
+								<h1>QuickFix</h1>
+							</a>
+						</div><!-- #logo end -->
+
+						<div class="primary-menu-trigger">
+							<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
+								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
+							</button>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="one-page-menu menu-container" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#wrapper"><div>Home</div></a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#section-about"><div>About</div></a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#section-works"><div>Works</div></a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#section-services"><div>Services</div></a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#section-blog"><div>Blog</div></a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#section-contact"><div>Contact</div></a>
+								</li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element min-vh-100 include-header">
+			<div class="slider-inner" style="background-image: url('https://i.postimg.cc/fb7KWFhY/Construction.jpg');">
+				<div class="vertical-middle">
+					<div class="container">
+
+						<div class="row align-items-center justify-content-start text-start h-100">
+							<div class="col-md-9">
+								<div class="emphasis-title dark mb-5">
+									<h2 data-animate="fadeInUp faster" class="mb-0" style="font-size: 70px; font-weight: 700; font-family: 'Playfair Display', serif !important; line-height: 1.2">Need assistance?<br>Find the Right person for the job.</h2>
+								</div>
+								<form id="pet-search" class="row ms-md-0 mb-0 pet-search align-items-center bg-white shadow h-shadow-lg" action="search.html" method="get" data-animate="fadeInUp faster" data-delay="300">
+									<div class="input-group align-items-center input-group-lg col-md">
+										<i class="input-group-text uil uil-search"></i>
+										<input type="text" name="search-type" class="form-control" value="" placeholder="for ex. Plumber">
+									</div>
+									<div class="input-group align-items-center input-group-lg col-md">
+										<i class="input-group-text uil uil-location-arrow"></i>
+										<input type="text" name="search-location" class="form-control" value="" placeholder="Enter Your Location..">
+									</div>
+									<div class="col-md-auto p-1">
+										<a href="#" class="button button-large button-light text-dark m-0 d-flex align-items-center justify-content-center px-5 h-op-09">Search</a>
+									</div>
+								</form>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<img src="one-page/images/page/pet/hero.svg" alt="construction" style="position: absolute; bottom: -1px;">
+			</div>
+		</section><!-- #slider end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap py-0">
+
+				<div id="section-about" class="text-center page-section">
+
+					<div class="container">
+
+						<h2 class="mx-auto mb-5 font-body" style="max-width: 700px; font-size: 40px;">A site desinged to find the right person for the job!</h2>
+
+						<p class="lead mx-auto mb-5" style="max-width: 800px;">Welcome to QuickFix!,you can find the perfect person for your home or business improvement projects.whether you need a plumber for a leaky faucet,an electrician to install lighting,a renovator to upgrade your space,or an architect for custom design,our platform makes it easy to connect with qualified professionals.Our search functionality allow you to find the righ person for the job,ensuring that your project is completed to your satisfaction.Let us help you find the perfect team to make your dream a reality!</p>
+
+						<p class="mb-5" style="font-size: 16px;"><a href="#" data-scrollto="#section-services" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" class="more-link">Learn more <i class="uil uil-angle-right-b"></i></a></p>
+
+						<div class="clear"></div>
+
+						<div class="row mt-6 mx-auto" style="max-width: 1000px;">
+
+							<div class="col-md-4 mb-5">
+
+								<div class="team">
+									<div class="team-image">
+										<img src="https://i.postimg.cc/Z5mxqZWN/businessman.jpg" alt="Christopher Rhodes">
+										<div class="bg-overlay">
+											<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+												<a href="#" class="social-icon bg-transparent h-bg-facebook" title="Facebook">
+													<i class="fa-brands fa-facebook-f"></i>
+													<i class="fa-brands fa-facebook-f"></i>
+												</a>
+												<a href="#" class="social-icon bg-transparent h-bg-twitter" title="Twitter">
+													<i class="fa-brands fa-twitter"></i>
+													<i class="fa-brands fa-twitter"></i>
+												</a>
+												<a href="#" class="social-icon bg-transparent h-bg-github" title="Github">
+													<i class="fa-brands fa-github"></i>
+													<i class="fa-brands fa-github"></i>
+												</a>
+											</div>
+											<div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
+										</div>
+									</div>
+									<div class="team-desc team-desc-bg">
+										<div class="team-title"><h4>Christopher Rhodes</h4><span>CEO</span></div>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="col-md-4 mb-5">
+
+								<div class="team">
+									<div class="team-image">
+										<img src="https://i.postimg.cc/tJPFXmyD/Business-woman.jpg" alt="Lisa Andrews">
+										<div class="bg-overlay">
+											<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+												<a href="#" class="social-icon bg-transparent h-bg-twitter" title="Twitter">
+													<i class="fa-brands fa-twitter"></i>
+													<i class="fa-brands fa-twitter"></i>
+												</a>
+												<a href="#" class="social-icon bg-transparent h-bg-linkedin" title="LinkedIn">
+													<i class="fa-brands fa-linkedin"></i>
+													<i class="fa-brands fa-linkedin"></i>
+												</a>
+												<a href="#" class="social-icon bg-transparent h-bg-flickr" title="Flickr">
+													<i class="fa-brands fa-flickr"></i>
+													<i class="fa-brands fa-flickr"></i>
+												</a>
+											</div>
+											<div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
+										</div>
+									</div>
+									<div class="team-desc team-desc-bg">
+										<div class="team-title"><h4>Lisa Andrews</h4><span>Co-Founder</span></div>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="col-md-4 mb-5">
+
+								<div class="team">
+									<div class="team-image">
+										<img src="https://i.postimg.cc/KcnK8TB9/man-sales.jpg" alt="Nathan Clark">
+										<div class="bg-overlay">
+											<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+												<a href="#" class="social-icon bg-transparent h-bg-twitter" title="Twitter">
+													<i class="fa-brands fa-twitter"></i>
+													<i class="fa-brands fa-twitter"></i>
+												</a>
+												<a href="#" class="social-icon bg-transparent h-bg-vimeo" title="Vimeo">
+													<i class="fa-brands fa-vimeo-v"></i>
+													<i class="fa-brands fa-vimeo-v"></i>
+												</a>
+												<a href="#" class="social-icon bg-transparent h-bg-instagram" title="Instagram">
+													<i class="bi-instagram"></i>
+													<i class="bi-instagram"></i>
+												</a>
+											</div>
+											<div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
+										</div>
+									</div>
+									<div class="team-desc team-desc-bg">
+										<div class="team-title"><h4>Nathan Clark</h4><span>Sales</span></div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="section-works" class="page-section pt-0">
+
+					<div class="section m-0">
+						<div class="container">
+							<div class="mx-auto text-center" style="max-width: 900px;">
+								<h2 class="mb-0 fw-light ls-1">We are dedicated into helping you find the best person to help you satisfy your wants and needs for you're home or bussiness,search up the person who is right for the job.</h2>
+							</div>
+						</div>
+					</div>
+
+					<!-- Portfolio Items
+					============================================= -->
+					<div class="portfolio grid-container row g-0">
+
+						<article class="portfolio-item col-lg-6 col-md-4 col-sm-6 col-12 wide">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+									<a href="#">
+										<img src="https://i.postimg.cc/m2yvPdNN/contractor-Renovation.jpg" alt="contractor">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc p-0 text-center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+												<h3>House renovation</h3>
+											</div>
+										</div>
+										<div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+									<a href="#">
+										<img src="https://i.postimg.cc/L4LgpcfJ/architect-3979490-1280.jpg" alt="Locked Steel Gate">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc p-0 text-center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+												<h3>Get in touch with architects</h3>
+											</div>
+										</div>
+										<div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+										<img src="https://i.postimg.cc/4NbQP7xN/man.jpg" alt="man on cellphone">
+									<div class="bg-overlay">
+										<div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc p-0 text-center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+												<h3>Same day response</h3>
+											</div>
+										</div>
+										<div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="portfolio-item col-lg-6 col-md-4 col-sm-6 col-12 wide">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+										<img src="https://i.postimg.cc/JnPRKhJD/plumber.webp" alt="busy plumber">
+									<div class="bg-overlay">
+										<div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc p-0 text-center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+												<h3>Pluming</h3>
+											</div>
+										</div>
+										<div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="portfolio-item col-lg-6 col-md-4 col-sm-6 col-12 wide">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+										<img src="https://i.postimg.cc/QdmBvjpD/tiling.jpg" alt="busy tiler">
+									<div class="bg-overlay">
+										<div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc p-0 text-center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+												<h3>Tiling</h3>
+											</div>
+										</div>
+										<div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+										<img src="https://i.postimg.cc/Sxns1cN6/interior-design.jpg" alt="interior design">
+									<div class="bg-overlay">
+										<div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc p-0 text-center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+												<h3>Interior design</h3>
+											</div>
+										</div>
+										<div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+										<img src="https://i.postimg.cc/j2zN59F4/triangle-3125882-1280.jpg" alt="triangle">
+									<div class="bg-overlay">
+										<div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc p-0 text-center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutDownSmall" data-hover-speed="350">
+												<h3>Services</h3>
+											</div>
+										</div>
+										<div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+						</article>
+
+					</div><!-- #portfolio end -->
+
+				</div>
+
+				<div id="section-services" class="page-section pt-0">
+
+					<div class="section m-0">
+						<div class="container">
+							<div class="mx-auto text-center" style="max-width: 900px;">
+								<h2 class="mb-0 fw-light ls-1">We enjoy working on the Services &amp; Products we provide as much as you need them. This help us in delivering your Goals easily. Browse through the wide range of services we provide.</h2>
+							</div>
+						</div>
+					</div>
+
+					<div class="row align-items-stretch">
+
+						<div class="col-lg-4 d-none d-md-block" style="background: url('https://i.postimg.cc/Y0wcTTkZ/electrician.jpg') center center no-repeat; background-size: cover;"></div>
+						<div class="col-lg-8">
+							<div class="row align-items-stretch grid-border">
+								<div class="col-lg-4 col-md-6 col-padding">
+									<div class="feature-box fbox-center fbox-dark fbox-plain">
+										<div class="fbox-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+										</div>
+										<div class="fbox-content fbox-content-sm">
+											<h3>On time service</h3>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 col-padding">
+									<div class="feature-box fbox-center fbox-dark fbox-plain">
+										<div class="fbox-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M176 88v40H336V88c0-4.4-3.6-8-8-8H184c-4.4 0-8 3.6-8 8zm-48 40V88c0-30.9 25.1-56 56-56H328c30.9 0 56 25.1 56 56v40h28.1c12.7 0 24.9 5.1 33.9 14.1l51.9 51.9c9 9 14.1 21.2 14.1 33.9V304H384V288c0-17.7-14.3-32-32-32s-32 14.3-32 32v16H192V288c0-17.7-14.3-32-32-32s-32 14.3-32 32v16H0V227.9c0-12.7 5.1-24.9 14.1-33.9l51.9-51.9c9-9 21.2-14.1 33.9-14.1H128zM0 416V336H128v16c0 17.7 14.3 32 32 32s32-14.3 32-32V336H320v16c0 17.7 14.3 32 32 32s32-14.3 32-32V336H512v80c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64z"/></svg>
+										</div>
+										<div class="fbox-content fbox-content-sm">
+											<h3>Quick Repairs</h3>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 col-padding">
+									<div class="feature-box fbox-center fbox-dark fbox-plain">
+										<div class="fbox-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2l0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4l0 0c19.8 27.1 39.7 54.4 49.2 86.2H272zM192 512c44.2 0 80-35.8 80-80V416H112v16c0 44.2 35.8 80 80 80zM112 176c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-61.9 50.1-112 112-112c8.8 0 16 7.2 16 16s-7.2 16-16 16c-44.2 0-80 35.8-80 80z"/></svg>
+										</div>
+										<div class="fbox-content fbox-content-sm">
+											<h3>Electicians</h3>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 col-padding">
+									<div class="feature-box fbox-center fbox-dark fbox-plain">
+										<div class="fbox-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M256 32c-17.7 0-32 14.3-32 32v2.3 99.6c0 5.6-4.5 10.1-10.1 10.1c-3.6 0-7-1.9-8.8-5.1L157.1 87C83 123.5 32 199.8 32 288v64H544l0-66.4c-.9-87.2-51.7-162.4-125.1-198.6l-48 83.9c-1.8 3.2-5.2 5.1-8.8 5.1c-5.6 0-10.1-4.5-10.1-10.1V66.3 64c0-17.7-14.3-32-32-32H256zM16.6 384C7.4 384 0 391.4 0 400.6c0 4.7 2 9.2 5.8 11.9C27.5 428.4 111.8 480 288 480s260.5-51.6 282.2-67.5c3.8-2.8 5.8-7.2 5.8-11.9c0-9.2-7.4-16.6-16.6-16.6H16.6z"/></svg>
+										</div>
+										<div class="fbox-content fbox-content-sm">
+											<h3>Renovations</h3>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 col-padding">
+									<div class="feature-box fbox-center fbox-dark fbox-plain">
+										<div class="fbox-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109V104c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16V102.6c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM56 432a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg>
+										</div>
+										<div class="fbox-content fbox-content-sm">
+											<h3>Plumbers</h3>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 col-padding">
+									<div class="feature-box fbox-center fbox-dark fbox-plain">
+										<div class="fbox-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M272.2 64.6l-51.1 51.1c-15.3 4.2-29.5 11.9-41.5 22.5L153 161.9C142.8 171 129.5 176 115.8 176H96V304c20.4 .6 39.8 8.9 54.3 23.4l35.6 35.6 7 7 0 0L219.9 397c6.2 6.2 16.4 6.2 22.6 0c1.7-1.7 3-3.7 3.7-5.8c2.8-7.7 9.3-13.5 17.3-15.3s16.4 .6 22.2 6.5L296.5 393c11.6 11.6 30.4 11.6 41.9 0c5.4-5.4 8.3-12.3 8.6-19.4c.4-8.8 5.6-16.6 13.6-20.4s17.3-3 24.4 2.1c9.4 6.7 22.5 5.8 30.9-2.6c9.4-9.4 9.4-24.6 0-33.9L340.1 243l-35.8 33c-27.3 25.2-69.2 25.6-97 .9c-31.7-28.2-32.4-77.4-1.6-106.5l70.1-66.2C303.2 78.4 339.4 64 377.1 64c36.1 0 71 13.3 97.9 37.2L505.1 128H544h40 40c8.8 0 16 7.2 16 16V352c0 17.7-14.3 32-32 32H576c-11.8 0-22.2-6.4-27.7-16H463.4c-3.4 6.7-7.9 13.1-13.5 18.7c-17.1 17.1-40.8 23.8-63 20.1c-3.6 7.3-8.5 14.1-14.6 20.2c-27.3 27.3-70 30-100.4 8.1c-25.1 20.8-62.5 19.5-86-4.1L159 404l-7-7-35.6-35.6c-5.5-5.5-12.7-8.7-20.4-9.3C96 369.7 81.6 384 64 384H32c-17.7 0-32-14.3-32-32V144c0-8.8 7.2-16 16-16H56 96h19.8c2 0 3.9-.7 5.3-2l26.5-23.6C175.5 77.7 211.4 64 248.7 64H259c4.4 0 8.9 .2 13.2 .6zM544 320V176H496c-5.9 0-11.6-2.2-15.9-6.1l-36.9-32.8c-18.2-16.2-41.7-25.1-66.1-25.1c-25.4 0-49.8 9.7-68.3 27.1l-70.1 66.2c-10.3 9.8-10.1 26.3 .5 35.7c9.3 8.3 23.4 8.1 32.5-.3l71.9-66.4c9.7-9 24.9-8.4 33.9 1.4s8.4 24.9-1.4 33.9l-.8 .8 74.4 74.4c10 10 16.5 22.3 19.4 35.1H544zM64 336a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm528 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32z"/></svg>
+										</div>
+										<div class="fbox-content fbox-content-sm">
+											<h3>Negotiable prices</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="section dark m-0">
+						<div class="mx-auto text-center" style="max-width: 900px;">
+							<h2 class="mb-0 fw-light ls-1">Like Our Services? Get an <a href="#" data-scrollto="#template-contactform" data-offset="140" data-easing="easeInOutExpo" data-speed="1250" class="button button-border button-circle button-light button-large my-0" style="position: relative; top: -3px;">Instant Quote</a></h2>
+						</div>
+					</div>
+
+					<div class="section parallax m-0 dark" style="padding: 150px 0;">
+						<img src="https://i.postimg.cc/hjxkKfww/dark-background.jpg" class="parallax-bg">
+						<div class="container">
+
+							<div class="row justify-content-end">
+								<div class="col-md-7">
+									<div class="fslider testimonial testimonial-full text-center bg-transparent border-0 shadow-none p-0" data-arrows="false">
+										<div class="flexslider">
+											<div class="slider-wrap">
+												<div class="slide">
+													<p class="mb-4 fs-4 fw-light ls-1">"I have used this site and I got to say QuickFix.com I'll recommend you to use this site when in need of a handyman,keep up the good work!"</p>
+													<h4 class="h5 mb-0 fw-medium">Amanda Jefferson</h4>
+													<small class="text-muted">From Apple Inc.</small>
+												</div>
+												<div class="slide">
+													<p class="mb-4 fs-4 fw-light ls-1">"If I should say QuickFix.com is one of the best sites out here,they stick to their word you do really get a call in less than 2 hours!"</p>
+													<h4 class="h5 mb-0 fw-medium">Collin Grootboom</h4>
+													<small class="text-muted">From Sigma Inc.</small>
+												</div>
+												<div class="slide">
+													<p class="mb-4 fs-4 fw-light ls-1">"I had my house renovated in less than 4 months,and it looks perfect thanks to QuickFix.com I found the right renovators for the job,I am so satisfied!</p>
+													<h4 class="h5 mb-0 fw-medium">Maxwell Khan</h4>
+													<small class="text-muted">From Hardware llc.</small>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="section-blog" class="page-section">
+
+					<h2 class="text-center text-uppercase fw-light ls-3 font-body">Recently From social media</h2>
+
+					<div class="section mb-0">
+						<div class="container">
+
+							<div class="row posts-md mt-5 col-mb-50 mb-0">
+
+								<div class="entry col-md-6">
+									<div class="grid-inner row align-items-center">
+										<div class="col-lg-6">
+											<div class="entry-image">
+												<a href="#"><img src="https://i.postimg.cc/jqQNmN4k/5star-Rated.png" alt="5star rated"></a>
+											</div>
+										</div>
+										<div class="col-lg-6 mt-3 mt-lg-0">
+											<span class="before-heading fst-normal">Press &amp; Media</span>
+											<div class="entry-title text-transform-none">
+												<h3 class="fw-normal"><a href="#">We've recieved positive feedback from our users!</a></h3>
+											</div>
+											<div class="entry-content">
+												<a href="#" class="more-link">Read more <i class="uil uil-angle-right-b"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="entry col-md-6">
+									<div class="grid-inner row align-items-center">
+										<div class="col-lg-6">
+											<div class="entry-image">
+												<a href="#"><img src="https://i.postimg.cc/VLWdYFbq/construction.jpg" alt="Paris"></a>
+											</div>
+										</div>
+										<div class="col-lg-6 mt-3 mt-lg-0">
+											<span class="before-heading fst-normal">Upcoming</span>
+											<div class="entry-title text-transform-none">
+												<h3 class="fw-normal"><a href="#">A big project ahead for one of our companies</a></h3>
+											</div>
+											<div class="entry-content">
+												<a href="#" class="more-link">Read more <i class="uil uil-angle-right-b"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="entry col-md-6">
+									<div class="grid-inner row align-items-center">
+										<div class="col-lg-6">
+											<div class="entry-image">
+												<a href="#"><img src="https://i.postimg.cc/g2BKf9Fx/coming-soon.jpg" alt="Paris"></a>
+											</div>
+										</div>
+										<div class="col-lg-6 mt-3 mt-lg-0">
+											<span class="before-heading fst-normal">Lastest news</span>
+											<div class="entry-title text-transform-none">
+												<h3 class="fw-normal"><a href="#">We are launching our app soon on all platforms.</a></h3>
+											</div>
+											<div class="entry-content">
+												<a href="#" class="more-link">Read more <i class="uil uil-angle-right-b"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="entry col-md-6">
+									<div class="grid-inner row align-items-center">
+										<div class="col-lg-6">
+											<div class="entry-image">
+												<a href="#"><img src="https://i.postimg.cc/7Yh0QcRC/construction-equipment.jpg" alt="Paris"></a>
+											</div>
+										</div>
+										<div class="col-lg-6 mt-3 mt-lg-0">
+											<span class="before-heading fst-normal">Daily news</span>
+											<div class="entry-title text-transform-none">
+												<h3 class="fw-normal"><a href="#">Huge increase in revenue in construction companies in SA</a></h3>
+											</div>
+											<div class="entry-content">
+												<a href="#" class="more-link">Read more <i class="uil uil-angle-right-b"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+					<div class="container mt-6">
+
+						<div id="oc-clients" class="owl-carousel mt-5 image-carousel carousel-widget" data-margin="80" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
+
+							<div class="oc-item"><img src="https://i.postimg.cc/xjhvKYg9/client-1.png" alt="bussiness partner 1"></div>
+							<div class="oc-item"><img src="https://i.postimg.cc/s2HKBL28/client2.png" alt="bussiness partner 2"></div>
+							<div class="oc-item"><img src="https://i.postimg.cc/fLjL2G0q/clients3.png" alt="bussiness partner 3"></div>
+							<div class="oc-item"><img src="images/clients/4.png" alt="bussiness partner 4"></div>
+							<div class="oc-item"><img src="https://i.postimg.cc/Kc0LmTRq/client4.png" alt="bussiness partner 5"></div>
+							<div class="oc-item"><img src="https://i.postimg.cc/760km0jx/hammer.png" alt="bussiness partner 6"></div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="section-contact" class="page-section pt-0">
+
+					<div class="row mx-0 mb-6 align-items-stretch">
+						<div class="col-lg-8 col-md-6 d-none d-md-block px-0">
+							<div class="gmap h-100" data-address="Melbourne, Australia" data-maptype="ROADMAP" data-zoom="14" data-markers='[{ address: "Melbourne, Australia", html: "Melbourne, Australia", icon:{ image: "one-page/images/icons/map-icon-red.png", iconsize: [32, 32], iconanchor: [14,44] } }]' data-styles='[{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":"-100"},{"lightness":"30"}]},{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"simplified"},{"gamma":"0.00"},{"lightness":"74"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"lightness":"3"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]'></div>
+						</div>
+						<div class="col-lg-4 col-md-6 bg-contrast-100">
+							<div class="col-padding">
+								<h3 class="font-body fw-normal ls-1">Our Headquarters</h3>
+
+								<div style="font-size: 16px; line-height: 1.7;">
+									<address style="line-height: 1.7;">
+										<strong>South Africa:</strong><br>
+										795 Folsom Road,Rosebank,Suite 3198<br>
+										Gauteng<br>
+									</address>
+
+									<div class="clear mt-4"></div>
+
+									<div class="clear mt-5"></div>
+
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (+27) 8547 632521<br>
+									<abbr title="Fax"><strong>Fax:</strong></abbr> (+27) 11 4752 1433<br>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> info@fixit.com
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="container">
+
+						<div class="mx-auto mt-5" style="max-width: 850px;">
+
+							<div class="form-widget">
+
+								<div class="form-result"></div>
+
+								<form class="row mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
+
+									<div class="form-process">
+										<div class="css3-spinner">
+											<div class="css3-spinner-scale-ripple">
+												<div></div>
+												<div></div>
+												<div></div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-6 mb-4">
+										<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="form-control border-form-control required" placeholder="Name">
+									</div>
+									<div class="col-md-6 mb-4">
+										<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email form-control border-form-control" placeholder="Email Address">
+									</div>
+
+									<div class="w-100"></div>
+
+									<div class="col-md-4 mb-4">
+										<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="form-control border-form-control" placeholder="Phone">
+									</div>
+
+									<div class="col-md-8 mb-4">
+										<input type="text" id="template-contactform-subject" name="subject" value="" class="required form-control border-form-control" placeholder="Subject">
+									</div>
+
+									<div class="w-100"></div>
+
+									<div class="col-12 mb-4">
+										<textarea class="required form-control border-form-control" id="template-contactform-message" name="template-contactform-message" rows="7" cols="30" placeholder="Your Message"></textarea>
+									</div>
+
+									<div class="col-12 text-center mb-4">
+										<button class="button button-border button-circle fw-medium ms-0 mt-4" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+										<br>
+										<small class="d-block mt-3 text-muted">We'll get back to you within 1-3 working hours.</small>
+									</div>
+
+									<div class="w-100"></div>
+
+									<div class="col-12 d-none">
+										<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="form-control">
+									</div>
+
+									<input type="hidden" name="prefix" value="template-contactform-">
+
+								</form>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark border-0">
+
+			<div class="container text-center">
+				<div class="footer-widgets-wrap">
+
+					<div class="row mx-auto">
+
+						<div class="col-lg-4">
+
+							<div class="widget">
+								<h4>Site Links</h4>
+
+								<ul class="list-unstyled footer-site-links mb-0">
+									<li><a href="#" data-scrollto="#wrapper" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">Search</a></li>
+								</ul>
+							</div>
+
+						</div>
+
+						<div class="col-lg-4">
+
+							<div class="widget subscribe-widget" data-loader="button">
+								<h4>Subscribe</h4>
+
+								<div class="widget-subscribe-form-result"></div>
+								<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
+									<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control form-control-lg not-dark required email" placeholder="Your Email Address">
+									<button class="button button-border button-circle button-light mt-4" type="submit">Subscribe Now</button>
+								</form>
+							</div>
+
+						</div>
+
+						<div class="col-lg-4">
+
+							<div class="widget">
+								<h4>Contact</h4>
+
+								<p class="lead">795 Folsom Road,Rosebank,Suite 3198<br>Gauteng</p>
+
+								<div class="d-flex justify-content-center mt-4">
+									<a href="#" class="social-icon si-small bg-transparent h-bg-facebook" title="Facebook">
+										<i class="fa-brands fa-facebook-f"></i>
+										<i class="fa-brands fa-facebook-f"></i>
+									</a>
+									<a href="#" class="social-icon si-small bg-transparent h-bg-twitter" title="Twitter">
+										<i class="fa-brands fa-twitter"></i>
+										<i class="fa-brands fa-twitter"></i>
+									</a>
+									<a href="#" class="social-icon si-small bg-transparent h-bg-pinterest" title="Pinterest">
+										<i class="fa-brands fa-pinterest-p"></i>
+										<i class="fa-brands fa-pinterest-p"></i>
+									</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div id="copyrights">
+				<div class="container text-center">
+					Copyrights &copy; QuickFix 2022 | All Rights Reserved
+				</div>
+			</div>
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="uil uil-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+</body>
+</html>
